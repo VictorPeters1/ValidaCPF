@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "valida-cpf"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Mateus de Souza"]
+readme = "README.md"
+packages = [{include = "valida_cpf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tk = "^0.1.0"
+bottle = "^0.12.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
